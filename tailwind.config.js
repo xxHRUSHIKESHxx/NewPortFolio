@@ -15,6 +15,7 @@ module.exports = {
       },
     },
     screens: {
+      xs: '475px',
       sm: '640px',
       md: '768px',
       lg: '960px',
@@ -24,11 +25,13 @@ module.exports = {
       colors: {
         primary: '#131424',
         secondary: '#393A47',
-        accent: '#F13024',
+        accent: '#07fa02',
+        hola:"#aa00ff",
+        smile:"#02fa34",
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',
-        circles: 'url("/bg-circles.png")',
+       
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
       },
