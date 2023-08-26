@@ -133,7 +133,7 @@ const aboutData = [
   },
 ];
 
-const subject = () => {
+const Subject = () => {
   const [yoindex, yosetIndex] = useState(0);
 
   return (
@@ -199,8 +199,8 @@ const subject = () => {
                   key={itemIndex}
                   className={` ${
                     yoindex === itemIndex &&
-                    "text-hola after:w-[100%] after:bg-hola after:transition-all after:duration-300 "
-                  }  cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-hola after:absolute after:-bottom-1 after:left-0 `}
+                    "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300 "
+                  }  cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-accent after:absolute after:-bottom-1 after:left-0 `}
                   onClick={() => yosetIndex(itemIndex)}
                 >
                   {item.title}
@@ -245,4 +245,4 @@ const subject = () => {
   );
 };
 
-export default subject;
+export default Subject;

@@ -43,12 +43,12 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-white"
           >
             Welcome to my front-end development playground, where I turn designs
             into interactive wonders. With a passion for clean code and
             captivating experiences, I craft websites that leave a lasting
-            impression. Let's collaborate and create something extraordinary
+            impression. Let&apos;s collaborate and create something extraordinary
             together.
           </motion.p>
           {/* btn */}

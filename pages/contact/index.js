@@ -70,7 +70,7 @@ const Contact = () => {
               className="h2 text-center mb-12"
             >
               {" "}
-              Let's <span className="text-hola">connect</span> <span className="text-accent">.</span> 
+             <span> Let&apos;s </span><span className="text-hola">connect</span> <span className="text-accent">.</span> 
             </motion.h2>
         
             

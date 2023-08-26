@@ -27,7 +27,7 @@ module.exports = {
         secondary: '#393A47',
         accent: '#07fa02',
         hola:"#aa00ff",
-        smile:"#02fa34",
+        smile:"#02fafa",
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',

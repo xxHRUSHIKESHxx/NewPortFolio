@@ -7,14 +7,7 @@ const BannerText = () => {
     const [text , setText ] = useState('')
     const[delta ,setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
-    useEffect(() => {
-        let ticker =  setInterval(() => {
-          tick();
-        },delta)
-        // delta will determine here how fast will things happen
-        return () => {clearInterval(ticker)};
-
-    },[text])
+ 
 
     const tick =() => {
         let i = loopNum % toRotate.length;// i is the index currently we are peeking | % is used to claculate the modules means when the  toROtate elements will  finish it will restart again
@@ -38,6 +31,14 @@ const BannerText = () => {
       
         }
       }
+      useEffect(() => {
+        let ticker =  setInterval(() => {
+          tick();
+        },delta)
+        // delta will determine here how fast will things happen
+        return () => {clearInterval(ticker)};
+
+    },[text])
 
   return (
     <div>{text}</div>
