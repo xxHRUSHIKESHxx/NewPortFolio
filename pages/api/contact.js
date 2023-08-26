@@ -5,7 +5,7 @@ import { mailOptions, transporter } from "../../config/nodemailer";
 const handler = async (req, res) => {
  
 
-
+console.log(req.body);
   if(req.method === "POST"){
     const data = req.body;
     const name = data.name
