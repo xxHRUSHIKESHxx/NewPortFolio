@@ -13,10 +13,10 @@ console.log(req.body);
     const phone = data.phone;
     const message = data.message;
     // console.log(req.body);
-    if( !data.name || !data.email || !data.subject || !data.message ) {
-      res.status(400).json({ name: 'hot Request' });
-      console.log("this is the way");
-    }
+    // if( !data.name || !data.email || !data.subject || !data.message ) {
+    //   res.status(400).json({ name: 'hot Request' });
+    //   console.log("this is the way");
+    // }
 
     try{
         await transporter.sendMail( {
