@@ -30,7 +30,7 @@ const Home = () => {
             className="h1 mt-10"
           >
             {`Hi I'm `}           
-             <span className="text-hola">
+             <span className="text-accent  ">
              HRUSHIKESH
             </span> , <br />
             <span className="text-accent">

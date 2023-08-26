@@ -70,7 +70,7 @@ const Contact = () => {
               className="h2 text-center mb-12"
             >
               {" "}
-             <span> Let&apos;s </span><span className="text-hola">connect</span> <span className="text-accent">.</span> 
+             <span> Let&apos;s </span><span className="text-accent">connect</span> <span className="text-white">.</span> 
             </motion.h2>
         
             
@@ -141,7 +141,7 @@ const Contact = () => {
               ></textarea>
               <button
                 type="submit"
-                className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-hola group "
+                className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group "
                 onClick={onSubmit}
               >
                 

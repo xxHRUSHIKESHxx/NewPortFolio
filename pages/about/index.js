@@ -100,7 +100,7 @@ const About = () => {
             className="h2"
           >
             Captivating <span className="text-accent">Stories</span> Birth 
-            <span className="text-accent"> Magnificient</span>  Design{" "} <span className="text-hola">.</span>
+            <span className="text-accent"> Magnificient</span>  Design{" "} <span className="text-white">.</span>
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -109,13 +109,7 @@ const About = () => {
             exit="hidden"
             className="max-w=[500px] ,x-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 "
           >
-            {/* A 3-year software development journey has shaped me, a fitness
-            enthusiast who finds solace in arm wrestling, workouts, and
-            meditation. I pursued my studies at a renowned BTech college,
-            fostering a passion for technology. My coding prowess spans various
-            languages and frameworks, creating robust solutions. Balancing the
-            digital world with physical challenges, I strive for holistic growth
-            and innovation. */}
+
           </motion.p>
           {/* counters */}
           <motion.div
@@ -128,8 +122,8 @@ const About = () => {
             <div>
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 ">
-                <div className="text-2xl xl:text-4xl font-extrabold text-smile mb-2 ">
-                  <CountUp start={0} end={21} duration={4} /> <span className="text-smile">+</span> 
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2 ">
+                  <CountUp start={0} end={21} duration={4} /> <span className="text-accent">+</span> 
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] ">
                   Years Old
@@ -153,8 +147,8 @@ const About = () => {
                   key={itemIndex}
                   className={` ${
                     index === itemIndex &&
-                    "text-hola after:w-[100%] after:bg-hola after:transition-all after:duration-300 "
-                  }  cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-hola after:absolute after:-bottom-1 after:left-0 `}
+                    "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300 "
+                  }  cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-accent after:absolute after:-bottom-1 after:left-0 `}
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}

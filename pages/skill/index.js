@@ -149,9 +149,9 @@ const Subject = () => {
             className="h2"
           >
             <span className="text-accent">Evolving Skillset </span>{" "}
-            <span className="text-hola">:</span> From Code Proficiency to{" "}
+            <span className="text-smile">:</span> From Code Proficiency to{" "}
             <span className="text-accent">Diverse</span> Expertise{" "}
-            <span className="text-hola">.</span>
+            <span className="text-smile">.</span>
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
