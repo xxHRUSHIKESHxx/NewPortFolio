@@ -16,7 +16,7 @@ import ParticlesContainer from "../components/ParticlesContainer";
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 h-full py-24">
+    <div className="bg-primary/60 h-full py-24 fixed">
         <ParticlesContainer />
       {/* text */}
       <div className="w-full h-full  ">

@@ -41,18 +41,16 @@ const ParticlesContainer = () => {
               quantity: 10
             },
             repulse:{
-              distance: 200,
+              distance: 100,
               duration : 0.4
             }
           }
         },
         particles:{
           color:{
-            value:''
+            value:'#05fa0d'
           },
-          // #00ff11'
-          
-          // #0048ff
+
           links:{
             color:'#fa0519',
             distance: 100,
@@ -61,7 +59,7 @@ const ParticlesContainer = () => {
             width: 1.3
           },
           collisions :{
-            enable:true
+            enable:false
           },
           move:{
             direction:'none',
@@ -70,7 +68,7 @@ const ParticlesContainer = () => {
               default:'bounce'
             },
             random:true,
-            speed:0.9,
+            speed:1,
             straight:false,
           },
         number:{
@@ -87,7 +85,7 @@ const ParticlesContainer = () => {
           type:'circle'
         },
         size:{
-          value:{min:1 , max:5},
+          value:{min:1 , max:3},
         },
         },
         detectRetina: true,

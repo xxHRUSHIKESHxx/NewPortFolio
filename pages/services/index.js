@@ -20,8 +20,8 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-             My  <span className="text-accent"> Services</span>
-               <span className="text-white"> .</span>
+              My <span className="text-accent"> Services</span>
+              <span className="text-white">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("down", 0.4)}
@@ -30,10 +30,9 @@ const Services = () => {
               exit="hidden"
               className="mb-4 mx-w-[400px] mx-auto lg:mx-0 "
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe,
-              officiis eligendi voluptatem minus eaque possimus amet nisi natus
-              necessitatibus! Illum ex expedita possimus suscipit quasi nostrum
-              reiciendis molestias ducimus dolorem!
+              I offer comprehensive services encompassing branding, development,
+              copywriting, SEO, and designing. Elevate your brand with our
+              expert solutions for a cohesive and impactful online presence.
             </motion.p>
           </div>
           <motion.div
@@ -44,7 +43,7 @@ const Services = () => {
             className="w-full xl:max-w-[65%] container "
           >
             {/* slider */}
-            <ServiceSlider/>
+            <ServiceSlider />
           </motion.div>
         </div>
       </div>

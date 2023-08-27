@@ -8,7 +8,6 @@ import { BsArrowRight } from "react-icons/bs";
 
 // framer
 import { motion } from "framer-motion";
-
 import { fadeIn } from "../../variants";
 import { sendContactForm } from "../../lib/api";
 
@@ -54,10 +53,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-full bg-primary/30">
-      <div className="container mx-auto py-24 text-center xl:text-left flex xl:flex-row flex-col items-center justify-center h-full ">
-
-
+    <div className="h-full bg-primary/30 py-24 text-center ">
+      <div className="container mx-auto text-center xl:text-left flex xl:flex-row flex-col items-center justify-center pb-10  ">
         <div className="container mx-auto flex flex-col items-center ">
           {/* text and form */}
           <div className="flex flex-col w-full max-w-[700px] ">
@@ -67,7 +64,7 @@ const Contact = () => {
               intial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 text-center mb-12"
+              className="h2 text-center"
             >
               {" "}
              <span> Let&apos;s </span><span className="text-accent">connect</span> <span className="text-white">.</span> 
@@ -79,7 +76,7 @@ const Contact = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className=" xl:mx-0 mb-3 px-2  "
+              className=" xl:mx-0 px-2 mb-2"
             >
               Please Drop A Message If You Like To Recruit Me Or Talk About Some
               Random Stuff About Front-End Development...
@@ -92,10 +89,10 @@ const Contact = () => {
               intial="hidden"
               animate="show"
               exit="hidden"
-              className="flex-1 flex flex-col gap-6 w-full mx-auto"
+              className="flex-1 flex flex-col gap-3 xl:gap-6 w-full mx-auto"
             >
               {/* input group */}
-              <div className="flex gap-x-6 w-full">
+              <div className="flex gap-x-3 xl:gap-x-6 w-full">
                 <input
                   type="text"
                   placeholder="Name"
@@ -113,7 +110,7 @@ const Contact = () => {
                   onChange={handleChange}
                 />
               </div>
-              <div className="flex gap-x-6 w-full">
+              <div className="flex gap-x-3 xl:gap-x-6 w-full">
                 <input
                   type="tel"
                   placeholder="Phone"

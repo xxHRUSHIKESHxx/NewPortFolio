@@ -158,7 +158,7 @@ const Subject = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w=[500px] ,x-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 "
+            className=" max-w=[500px] ,x-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 "
           >
             Refining skills from 2021 to 2023, my project-driven approach
             molded me. Frontend, backend, database proficiency grew, supported
@@ -208,18 +208,18 @@ const Subject = () => {
               );
             })}
           </div>
-          <div className="container flex flex-wrap justify-center items-center   ">
+          <div className="container flex flex-wrap justify-center items-center pb-10">
             {aboutData.map((item, itemIndex) => (
               <div
                 key={itemIndex}
-                className="container flex flex-wrap justify-center items-center "
+                className="container flex flex-wrap justify-center items-center pb-3"
               >
                 {yoindex === itemIndex && (
                   <RadarChart
                     cx="50%"
                     cy="50%"
                     outerRadius="80%"
-                    width={450}
+                    width={350}
                     height={350}
                     data={item.info} // Pass the infoItem array as data
                   >
