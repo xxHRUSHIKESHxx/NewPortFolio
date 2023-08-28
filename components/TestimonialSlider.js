@@ -2,24 +2,24 @@
 const testimonialData = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
+    name: 'Might Guy',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Stunning design, seamless functionality. Impressed by the front-end work. Aesthetic and user-friendly, its a masterpiece of web development'
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
+    name: 'Gold D Roger',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Outstanding front-end work! The websites design is captivating, user-friendly, and responsive. Impressed by the seamless navigation and visual appeal',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
+    name: 'Haruno Sakura',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Exceptional front-end work. The websites stunning design and seamless functionality exceeded expectations. A true professional in web development'
   },
 ];
 
