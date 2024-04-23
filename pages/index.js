@@ -76,10 +76,10 @@ const Home = () => {
         {/* image */}
       <div className="hidden xl:block w-[1000px] h-full absolute right-0 bottom-0 ">
         {/* bg img */}
-        <div
-          className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right-top xl:bg-no-repeat w-full h-full absolute  mix-blend-color-dodge
+        {/* <div
+          className="bg-none xl:bg-primary/60 h-full xl:bg-cover xl:bg-right-top xl:bg-no-repeat w-full h-full absolute  mix-blend-color-dodge
          translate-z-0 mb-100px "
-        ></div>
+        ></div> */}
         {/*  */}
 
        

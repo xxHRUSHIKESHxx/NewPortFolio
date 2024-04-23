@@ -18,7 +18,7 @@ const workSlides = {
     {
       images: [
         {
-          title: "CLONEDTUBE",
+          title: "TUBE TROVE",
           path: "/thumb1.jpg",
           link:"https://cloned-tube.vercel.app/"
        
@@ -35,18 +35,18 @@ const workSlides = {
           
         },
         {
-          title: "title",
+          title: "IRCTC DEMO",
           path: "/thumb4.jpg",
-          link:""
+          link:"https://github.com/xxHRUSHIKESHxx/irctcdemo"
         },
       ],
     },
     {
       images: [
         {
-          title: "CLONEDTUBE",
+          title: "GMAIL REPLY SENDER",
           path: "/thumb4.jpg",
-          link:"https://cloned-tube.vercel.app/"
+          link:"https://github.com/xxHRUSHIKESHxx/gmailreplysender"
         },
         {
           title: "EXPENSE MANAGER",
@@ -59,9 +59,9 @@ const workSlides = {
           link:"https://ai-summerizer-nu.vercel.app/"
         },
         {
-          title: "title",
+          title: "OLD PORTFOLIO",
           path: "/thumb3.jpg",
-          link:""
+          link:"https://xxhrushikeshxxportfolio.onrender.com"
         },
       ],
     },

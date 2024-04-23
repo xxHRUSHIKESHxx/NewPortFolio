@@ -4,8 +4,23 @@ import Bulb from "../../components/Bulb";
 //  data
 const aboutData = [
   {
+    title: "Work Experience",
+    info: [
+      {
+        title: "StepOut Sense",
+        stage:
+          "Worked as an intern in StepOut Sence in the development team for 5 months ",
+      },
+    ],
+  },
+  {
     title: "Education",
     info: [
+      {
+        title: "Full Stack Python Course",
+        stage:
+          "Currently doing a full stack python course in marathali pyspiders due to lack of campus in my collages",
+      },
       {
         title: "B-TECH(CSE)",
         stage:
@@ -57,9 +72,9 @@ const aboutData = [
         link: "https://drive.google.com/file/d/196j4YbLBbvTKHiaLCX5VFOAu2ktcQE1E/view?usp=sharing",
       },
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
-        link: "https://drive.google.com/file/d/196j4YbLBbvTKHiaLCX5VFOAu2ktcQE1E/view?usp=sharing",
+        title: "Internship - STEPP OUTSENSE pvt Ltd",
+        stage: "2024",
+        link: "https://drive.google.com/file/d/16oj025krFSgGNvU2PxtCJgI52w387K62/view?pli=1",
       },
       {
         title: "Computer Science Degree",
@@ -68,6 +83,7 @@ const aboutData = [
       },
     ],
   },
+  
 ];
 
 // components
