@@ -23,7 +23,7 @@ const Socials = () => {
        <RiGithubFill/>
     </Link>
 
-    <Link href={"https://docs.google.com/document/d/e/2PACX-1vT_v89ESu97hC2pHU2bY27O_h-7tXyNOpdLIon8WkiRXS6Qm0MHUKD_JjXbXxCMl2wwCuhpGncn9WhX/pub"} className="hover:text-accent transition-all duration-300" >
+    <Link href={"https://drive.google.com/file/d/1ObAOk9mg5fStEcSLn8NQOPIg0IuGhTij/view?usp=drive_link"} className="hover:text-accent transition-all duration-300" >
        <ImProfile/>
     </Link>
   

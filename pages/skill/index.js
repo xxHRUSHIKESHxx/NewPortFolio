@@ -4,13 +4,6 @@ import { fadeIn } from "../../variants";
 import CountUp from "react-countup";
 import React, { useState } from "react";
 
-import SkillCircle from "../../components/SkillCircle";
-
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
-
-// import ChangingProgressProvider from "./ChangingProgressProvider";
-
 import {
   Radar,
   RadarChart,
@@ -20,15 +13,6 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import ReCharts from "../../components/ReCharts";
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-  FaWordpress,
-} from "react-icons/fa";
 const aboutData = [
   {
     title: "Front-End",
@@ -162,7 +146,7 @@ const Subject = () => {
   const [yoindex, yosetIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 py-24 text-center xl:text-left">
+    <div className="h-full bg-primary/30 py-24 text-center xl:text-left xl:overflow-hidden">
       <div className="container bg-cover mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 ">
         {/* text */}
         <div className="flex-1 flex flex-col jusitfy-center">

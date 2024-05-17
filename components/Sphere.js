@@ -1,8 +1,10 @@
 import TagCloud from "TagCloud";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 const Sphere = () => {
+  const [count, setCount] = useState(0);
   useEffect(() => {
+    setCount(count + 1);
     const container = ".tagcloud";
     const texts = [
       "HTML",
@@ -109,11 +111,10 @@ const Sphere = () => {
       "API",
       "PYTHON",
       "DJANGO",
-      "AI/ML"
-
+      "AI/ML",
     ];
     const options = {
-      radius: 350,
+      radius: 350, 
       maxSpeed: "fast",
       initSpeed: "fast",
 
@@ -122,10 +123,12 @@ const Sphere = () => {
     TagCloud(container, texts, options);
   }, []);
 
+  console.log(count);
+
   return (
-    <div className="text-accent font-semibold">
-      <span className="tagcloud"></span>
-    </div>
+    // <div className="text-accent font-semibold">
+    <div className="tagcloud text-accent"></div>
+    // </div>
   );
 };
 export default Sphere;

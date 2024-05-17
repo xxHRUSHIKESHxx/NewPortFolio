@@ -1,7 +1,4 @@
-
-
 //components
-
 import ProjectsBtn from "../components/ProjectsBtn";
 
 import Sphere from "../components/Sphere";
@@ -16,8 +13,8 @@ import ParticlesContainer from "../components/ParticlesContainer";
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 h-full   ">
-        <ParticlesContainer />  
+    <div className=" bg-primary/60 h-full xl:overflow-hidden">
+      <ParticlesContainer />
       {/* text */}
       <div className="w-full h-full ">
         <div className="text-center flex flex-col justify-center xl:pt-20 xl:text-left h-full container mx-auto">
@@ -29,10 +26,8 @@ const Home = () => {
             exit="hidden"
             className="h1 mt-10"
           >
-            {`Hi I'm `}           
-             <span className="text-accent  ">
-             HRUSHIKESH
-            </span> , <br />
+            {`Hi I'm `}
+            <span className="text-accent  ">HRUSHIKESH</span> , <br />
             <span className="text-accent">
               <BannerText />
             </span>
@@ -48,12 +43,12 @@ const Home = () => {
             Welcome to my front-end development playground, where I turn designs
             into interactive wonders. With a passion for clean code and
             captivating experiences, I craft websites that leave a lasting
-            impression. Let&apos;s collaborate and create something extraordinary
-            together.
+            impression. Let&apos;s collaborate and create something
+            extraordinary together.
           </motion.p>
           {/* btn */}
-         
-            <motion.div
+
+          <motion.div
             variants={fadeIn("down", 0.4)}
             initial="hidden"
             animate="show"
@@ -73,34 +68,23 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-        {/* image */}
-      <div className="hidden xl:block w-[1000px] h-full absolute right-0 bottom-0 ">
-        {/* bg img */}
-        {/* <div
-          className="bg-none xl:bg-primary/60 h-full xl:bg-cover xl:bg-right-top xl:bg-no-repeat w-full h-full absolute  mix-blend-color-dodge
-         translate-z-0 mb-100px "
-        ></div> */}
-        {/*  */}
+      {/* image */}
 
-       
-        {/* 3d tag cloud*/}
+      <div className="hidden xl:inline-block w-[1000px] h-full absolute right-0 bottom-0 ">
         <div className="hidden xl:block ">
-        <motion.div
-          variants={fadeIn("up", 0.5)}
-          initial="hidden"
-          animate="show"
-          exit="hidden"
-          transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[537px] max-h-[478px] absolute lg:right-[18%] "
-        >
-          {/* w-full h-full max-w-[537px] max-h-[478px] absolute -bottom-32 lg:bottom-0 lg:right-[8%] */}
-
-          <Sphere />
-        </motion.div>
+          <motion.div
+            variants={fadeIn("up", 0.5)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            transition={{ duration: 1, ease: "easeInOut" }}
+            // className="w-full h-full max-w-[537px] max-h-[478px] absolute lg:right-[18%] "
+            className="w-full h-full  max-w-[537px] max-h-[478px] absolute lg:right-[18%] "
+          >
+            <Sphere  />
+          </motion.div>
         </div>
-        
       </div>
-    
     </div>
   );
 };
