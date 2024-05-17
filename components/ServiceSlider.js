@@ -60,11 +60,15 @@ const ServiceSlider = () => {
             spaceBetween: 15,
           },
         }}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        moudles={[Pagination, FreeMode]}
+        // freeMode={true}
+        // pagination={{
+        //   clickable: true,
+        // }}
+        // moudles={[Pagination, FreeMode]}
+        modules={[Pagination]}
+        spaceBetween={10}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
         className="h-[240px] sm:h-[340px] mySwiper"
       >
         {serviceData.map((item, index) => {
@@ -89,10 +93,10 @@ const ServiceSlider = () => {
           );
         })}
       </Swiper>
-      <div className="text-center text-accent font-bold">
+      {/* <div className="text-center text-accent font-bold">
         {" "}
         Slide Left Or Right To See More{" "}
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -166,7 +166,7 @@ const WorkSlider = () => {
       <Swiper
         modules={[Pagination]}
         spaceBetween={10}
-        slidesPerView={3}
+        slidesPerView={1}
         pagination={{ clickable: true }}
         className="h-[280px] sm:h-[480px]"
       >
@@ -219,11 +219,11 @@ const WorkSlider = () => {
           );
         })}
       </Swiper>
-      <div className="text-center text-accent font-bold">
+      {/* <div className="text-center text-accent font-bold">
         {" "}
         Slide Left Or Right To See More{" "}
        
-      </div>
+      </div> */}
     </div>
   );
 };
