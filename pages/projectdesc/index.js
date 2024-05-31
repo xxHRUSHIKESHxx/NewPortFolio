@@ -42,6 +42,10 @@ import { FaGoogle } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import { RiBookReadLine } from "react-icons/ri";
 import { FaInfinity } from "react-icons/fa";
+import { TbBrandRedux } from "react-icons/tb";
+import { IoIosTime } from "react-icons/io";
+import { FaCookie } from "react-icons/fa";
+import { SiNodemon } from "react-icons/si";
 
 const ProjectDescription = () => {
   const [projectData, setProjectData] = useState(null);
@@ -54,6 +58,9 @@ const ProjectDescription = () => {
   }, [search]);
 
   const skills = {
+    nodemon:<SiNodemon/>,
+    "cookie-Parser":<FaCookie/>,
+    Moment:<IoIosTime/>,
     HTML: <FaHtml5 />,
     CSS: <FaCss3 />,
     "Java Script": <SiJavascript />,
@@ -94,6 +101,7 @@ const ProjectDescription = () => {
     NodeCron: <FaInfinity />,
     "Node Mailer": <SiMinutemailer />,
     "Read Line": <RiBookReadLine />,
+    redux : <TbBrandRedux/>
   };
 
   if (projectData != null) {

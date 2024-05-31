@@ -25,25 +25,25 @@ const workSlides = {
       images: [
         {
           title: "Tube Trove",
-          path: "/thumb1.jpg",
+          path: "/tube_trove.jpeg",
           deployLink: "https://cloned-tube.vercel.app/",
           githubLink: "https://github.com/xxHRUSHIKESHxx/YouTube-Clone",
         },
         {
           title: "Gmail Reply Sender",
-          path: "/thumb2.jpg",
+          path: "/Gmail_reply_sender.jpeg",
           deployLink: null,
           githubLink: "https://github.com/xxHRUSHIKESHxx/gmailreplysender",
         },
         {
           title: "Campus Canvas BackEnd",
-          path: "/thumb3.jpg",
+          path: "/campus_canvas.jpeg",
           deployLink: null,
           githubLink: "https://github.com/xxHRUSHIKESHxx/backEnd",
         },
         {
           title: "Campus Canvas FrontEnd",
-          path: "/thumb4.jpg",
+          path: "/campus_canvas.jpeg",
           deployLink: null,
           githubLink: "https://github.com/xxHRUSHIKESHxx/major_project",
         },
@@ -53,25 +53,25 @@ const workSlides = {
       images: [
         {
           title: "Ai Summariser",
-          path: "/thumb4.jpg",
+          path: "/AI_summarizer.jpeg",
           deployLink: "https://ai-summerizer-nu.vercel.app/",
           githubLink: "https://github.com/xxHRUSHIKESHxx/AiSummerizer",
         },
         {
           title: "Ask Her Out",
-          path: "/thumb1.jpg",
+          path: "/ask_her_out.jpeg",
           deployLink: "https://lets-go-one.vercel.app/",
           githubLink: "https://github.com/xxHRUSHIKESHxx/lets_go",
         },
         {
           title: "Story Sphere",
-          path: "/thumb2.jpg",
+          path: "/story_sphere.jpeg",
           deployLink: null,
           githubLink: "https://github.com/xxHRUSHIKESHxx/blogApp",
         },
         {
           title: "Hope Harbour",
-          path: "/thumb3.jpg",
+          path: "/hope_harbour.jpeg",
           deployLink: null,
           githubLink: "https://github.com/xxHRUSHIKESHxx/bputpresentation",
         },
@@ -81,25 +81,25 @@ const workSlides = {
       images: [
         {
           title: "Expense Manager",
-          path: "/thumb4.jpg",
+          path: "/expense_manager.jpeg",
           deployLink: "https://yearly-expenses.vercel.app/",
           githubLink: "https://github.com/xxHRUSHIKESHxx/YearlyExpenses",
         },
         {
           title: "Weather App",
-          path: "/thumb1.jpg",
+          path: "/weather_app.jpeg",
           deployLink: null,
           githubLink: "https://github.com/xxHRUSHIKESHxx/weather_app",
         },
         {
           title: "Book Management",
-          path: "/thumb2.jpg",
+          path: "/book_management.jpeg",
           deployLink: null,
           githubLink: "https://github.com/xxHRUSHIKESHxx/book_management",
         },
         {
           title: "IRCTC Demo",
-          path: "/thumb3.jpg",
+          path: "/IRctc_demo.jpeg",
           deployLink: null,
           githubLink: "https://github.com/xxHRUSHIKESHxx/irctcdemo",
         },
@@ -190,11 +190,15 @@ const WorkSlider = () => {
                     >
                       <div className="flex items-center justify-center relative overflow-hidden group ">
                         {/* images */}
-                        <Image
+                        {/* <Image
                           src={image.path}
-                          width={500}
+                          width={300}
                           height={300}
                           alt=""
+                        /> */}
+                        <img
+                          src={image.path}
+                          style={{ height: 200, width: 500 }}
                         />
                         {/* overlaying gradient */}
                         <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
